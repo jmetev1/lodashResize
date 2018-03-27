@@ -1,0 +1,29 @@
+{
+  "name": "webpackproof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildDev": "webpack",
+    "buildProd": "webpack -p",
+    "plain": "webpack -p",
+    "webpackL": "webpack -p --config webpack.lodash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "lodash": "^4.17.5",
+    "lodash-es": "^4.17.7",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "lodash-webpack-plugin": "^0.11.4"
+  }
+}
